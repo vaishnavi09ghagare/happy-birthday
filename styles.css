@@ -150,7 +150,7 @@ figcaption { text-align:center; font-size:1.25rem; color:#483139; padding-top:10
 @media (max-width:390px) {
   .page { padding-left:13px; padding-right:13px; }
   .cover h1 { font-size:3.8rem; }.cutout-title { font-size:2.65rem; }
-  .memory { width:90%; padding:6px; }.memory img { height:clamp(90px, calc((80svh - 30px) / 2), 145px); }
+  .memory { width:90%; padding:6px; }.memory img { height:clamp(90px, calc((300svh - 70px) / 2), 205px); }
   .letter-copy p:not(.script) { font-size:1.04rem; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration:.01ms !important; transition-duration:.01ms !important; } }
